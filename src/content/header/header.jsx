@@ -10,18 +10,20 @@ function Header() {
       <div className={styles.contents}>
         <ul className={styles.menu}>
           <li>
-            <span></span>
-
-            <span>
-              <img src={imgHome} alt="" className={styles.imgMenu} />
-            </span>
-          </li>
-          <li>
             <span className={styles.logo}>
               <PiDevToLogo />
             </span>
 
-            <span>Renan</span>
+            <span>
+              <img src={imgHome} alt="" className={styles.imgMenu} />
+              <div className={styles.prefMenu}>
+                Renan
+                <i>
+                  <PiDevToLogo />
+                </i>
+                <p>Desenvolvedor Front-End</p>
+              </div>
+            </span>
           </li>
           <li>
             <span>

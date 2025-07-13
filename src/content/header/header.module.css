@@ -11,7 +11,13 @@
   padding: 20px 0;
   margin: 0;
 }
-
+.prefMenu {
+  font-size: 15px;
+}
+.prefMenu i {
+  background-color: #da2c2c;
+  border-radius: 10px;
+}
 .imgMenu {
   width: 100px;
   height: 100px;
