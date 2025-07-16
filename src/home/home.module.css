@@ -1,0 +1,142 @@
+.content {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 80px;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+}
+.logo {
+  display: flex;
+  justify-content: left;
+  margin: 5px;
+}
+
+.logo span {
+  font-size: 50px;
+  background-color: #da2c2c;
+  border-radius: 10px;
+}
+.caixaText {
+  background-color: #4c4c4e;
+  border-radius: 25px;
+  margin: 5px;
+  padding: 15px;
+}
+.caixaText li {
+  list-style: none;
+  margin: 5px;
+}
+.caixaText i {
+  font-size: 25px;
+  color: #20680a;
+  background-color: white;
+  border-radius: 25px;
+  padding: 5px;
+}
+
+.imgHome img {
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  margin: 30px;
+}
+.caixaBut {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+  width: 500px;
+  height: 50px;
+}
+.buttonLinkedin {
+  border-radius: 50px;
+  transition: 0.3s;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  background-color: #306ef5;
+  font-size: 25px;
+  margin: 5px;
+  width: 250px;
+  height: 50px;
+}
+.buttonLinkedin i {
+  margin: 10px;
+}
+.buttonLinkedin:hover {
+  background: #243fb6;
+}
+.buttonGithun {
+  border-radius: 50px;
+  transition: 0.3s;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  background-color: #171718;
+  font-size: 25px;
+  margin: 5px;
+  width: 250px;
+  height: 50px;
+}
+.buttonGithun i {
+  margin: 10px;
+}
+.buttonGithun:hover {
+  background: #28292e;
+}
+.buttonHome {
+  border-radius: 50px;
+  transition: 0.3s;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  background-color: #20680a;
+  font-size: 25px;
+  margin: 5px;
+  width: 250px;
+  height: 50px;
+}
+.buttonHome i {
+  margin: 10px;
+}
+.buttonHome:hover {
+  background: #44c660;
+}
+.iconHtml {
+  position: absolute;
+  top: 50px;
+  left: 700px;
+  width: 200px;
+  height: 200px;
+}
+.iconCss {
+  position: absolute;
+  top: 350px;
+  left: 700px;
+  width: 150px;
+  height: 150px;
+}
+.iconJs {
+  position: absolute;
+  top: 400px;
+  left: 1200px;
+  border-radius: 25px;
+  width: 100px;
+  height: 100px;
+}
+.caixaimg img {
+  animation-name: px;
+  animation-duration: 1.5s;
+}
+@keyframes px {
+  from {
+    top: 100%;
+    padding: 0;
+  }
+}

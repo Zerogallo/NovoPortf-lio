@@ -29,6 +29,7 @@ function Header() {
             <span>
               <VscSourceControl />
             </span>
+
             <span>Projeto</span>
           </li>
           <li>

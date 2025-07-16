@@ -1,0 +1,147 @@
+.projrto {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 80px;
+}
+.caixaPro {
+  background-color: #4c4c4e;
+  border-radius: 25px;
+  margin: 5px;
+  padding: 15px;
+  width: 300px;
+  height: 590px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.caixaPro h1 {
+  background-color: black;
+  border-radius: 25px;
+  margin: 5px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.prefMenu {
+  font-size: 15px;
+}
+.prefMenu i {
+  background-color: #da2c2c;
+  border-radius: 10px;
+}
+.prefMenu li {
+  list-style-type: none;
+  margin: 5px;
+}
+
+.prefMenu p {
+  font-size: 20px;
+  margin: 10px;
+}
+.caixaIncon {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 20px;
+}
+.caixaIncon li {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px;
+}
+.caixaIncon h2 {
+  font-size: 15px;
+}
+
+.imgProjeto {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.caixatotal {
+  background-color: #4c4c4e;
+  border-radius: 25px;
+  margin: 5px;
+  padding: 15px;
+  width: 900px;
+  height: 590px;
+}
+.caixatotal {
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #4c4c4c transparent; /* Para Firefox */
+}
+
+.caixatotal::-webkit-scrollbar {
+  width: 6px;
+  background-color: transparent;
+}
+
+.caixatotal::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 3px;
+}
+
+.caixatotal:hover::-webkit-scrollbar-thumb,
+.caixatotal:active::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.caixaCad {
+  background-color: #64635f;
+  border-radius: 25px;
+  margin: 5px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+.caixaCad:hover {
+  background-color: #0c0c0c;
+}
+.imgcad img {
+  width: 300px;
+  height: 200px;
+  border-radius: 25px;
+}
+.caixaTextt {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+}
+.caixaTextt h1 {
+  margin: 5px;
+  padding: 5px;
+}
+.caixaTextt li {
+  list-style-type: none;
+}
+.caixaButton {
+  margin: 10px;
+  width: 300px;
+  height: 50px;
+  border-radius: 25px;
+
+  transition: 0.3s;
+  padding: 10px 20px;
+  color: #0c0c0c;
+  cursor: pointer;
+  background-color: #bfc2ca;
+  font-size: 15px;
+}
+.caixaButton i {
+  margin: 10px;
+  font-size: 20px;
+}
+.caixaButton:hover {
+  background-color: #64635f;
+  color: #bfc2ca;
+}
