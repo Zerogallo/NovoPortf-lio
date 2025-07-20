@@ -3,6 +3,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import imgHome from "../../assets/imagem/image.jpg";
 import styles from "./header.module.css";
 import { PiDevToLogo } from "react-icons/pi";
+import PlayerDeAudio from "../../musica/musica";
 
 function Header() {
   return (
@@ -40,6 +41,7 @@ function Header() {
             <span>Contato</span>
           </li>
         </ul>
+        <PlayerDeAudio />
       </div>
     </>
   );

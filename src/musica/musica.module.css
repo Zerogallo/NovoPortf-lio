@@ -1,0 +1,37 @@
+.audioContainer {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.customAudio {
+  width: 100%;
+  max-width: 400px;
+  height: 40px;
+
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.customAudio::-webkit-media-controls-panel {
+  background-color: #4c4c4e;
+  border-radius: 10px;
+  height: 40px;
+  padding: 0 10px;
+}
+
+.customAudio::-webkit-media-controls-play-button {
+  background-color: #da2c2c;
+  border-radius: 50%;
+}
+.customAudio::-webkit-media-controls-mute-button {
+  background-color: #da2c2c;
+  border-radius: 50%;
+}
+
+.customAudio::-webkit-media-controls-current-time-display,
+.customAudio::-webkit-media-controls-time-remaining-display {
+  color: #bfc2ca;
+  font-family: "Arial", sans-serif;
+  font-size: 10px;
+}
